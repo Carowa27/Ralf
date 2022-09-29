@@ -19,14 +19,15 @@ body header a.nav-link:hover {
 body h2, body h3 {
   text-decoration: underline 2px #ccba78;
 }
+body i {
+  transition: color 0.2s linear;
+}
 body .icon {
   font-size: xx-large;
   padding: 5px;
-  transition: transform 5s linear;
 }
 body .icon:hover {
   color: #a7c7e7;
-  transform: scale(1.3);
 }
 body #bild_alexandra {
   width: 100%;
