@@ -1,0 +1,23 @@
+@use "variables" as var;
+
+body {
+    margin: 0;
+    background-color: #D1ECFF;
+    color: var.$primary-blue;
+        img.logo{
+height:75px;
+            }
+        
+
+    section.main-blogg{
+border:5px solid black;    }
+
+    aside{
+border: 5px solid black;
+    }
+}
+footer{
+    .cat{
+        width: 20vw;
+    }
+}
