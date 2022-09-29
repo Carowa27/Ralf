@@ -1,20 +1,51 @@
 body {
   margin: 0;
-  background-color: #D1ECFF;
-  color: #a7c7e7;
+  background-color: #e4f4ff;
+  color: #7aa0cb;
 }
-body img.logo {
+body header {
+  background-color: #dbeefa;
+}
+body header img.logo {
   height: 75px;
 }
-body section.main-blogg {
-  border: 5px solid black;
+body header a.nav-link {
+  font-size: larger;
+  font-weight: 500;
 }
-body aside {
-  border: 5px solid black;
+body header a.nav-link:hover {
+  color: #ccba78 !important;
+}
+body h2, body h3 {
+  text-decoration: underline 2px #ccba78;
+}
+body .icon {
+  font-size: xx-large;
+  padding: 5px;
+  transition: transform 5s linear;
+}
+body .icon:hover {
+  color: #a7c7e7;
+  transform: scale(1.3);
+}
+body #bild_alexandra {
+  width: 100%;
+}
+body #taco {
+  width: 100%;
+}
+body #brasil {
+  width: 100%;
 }
 
 footer .cat {
   width: 20vw;
+  transform: translateY(6px);
+}
+@media screen and (min-width: 768px) {
+  footer .cat {
+    transform: translateY(20px);
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
